@@ -1,0 +1,134 @@
+body{
+	font-family: Courier, serif;
+}
+
+
+#wrapper{
+	margin: 150px auto;
+	width: 960px;
+}
+
+header{
+	text-align: center;
+}
+
+#button{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#restart{
+	font-family: Courier, serif;
+	font-size: 20px;
+	font-weight: bold;
+	height: 30px;
+	width: 100px;
+	background-color: #66ccff;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#restart:hover{
+	border: 3px solid black;
+}
+
+#colors{
+	/* border: 1px solid black; */
+	width: 250px;
+	position: relative;
+	top: 180px;
+	left: 800px;
+}
+
+ul{
+	list-style: none;
+	display: inline;
+	
+}
+
+li{
+	display: inline;
+	padding-right: 15px;
+	text-align: left;
+}
+
+#red{
+	font-family: Courier, serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	height: 30px;
+	width: 50px;
+	background-color: red;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#red:hover{
+	border: 3px solid black;
+}
+
+#blue{
+	font-family: Courier, serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	height: 30px;
+	width: 50px;
+	background-color: blue;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#blue:hover{
+	border: 3px solid black;
+}
+
+#green{
+	font-family: Courier, serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	height: 30px;
+	width: 60px;
+	background-color: green;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#green:hover{
+	border: 3px solid black;
+}
+ 
+#container{
+	margin: 75px auto;
+	width: 480px;
+	border: 1px solid black;
+}
+
+.firkant{
+	float: left;
+	border: 1px solid #d8d8d8;
+	background: white;
+}
+
+.etch{
+	background: black;
+}
+
+.etchBlue{
+	background: blue;
+}
+
+.etchGreen{
+	background: green;
+}
+
+
+.etchRed{
+	background: red;
+}
+
+.clear{
+	background: white;
+}
